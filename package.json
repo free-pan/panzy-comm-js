@@ -1,8 +1,8 @@
 {
-  "name": "vue2-element-dyn-form",
-  "version": "0.1.2",
+  "name": "panzy-comm-js",
+  "version": "0.1.0",
   "private": false,
-  "main": "lib/vue2-element-dyn-form.common.js",
+  "main": "lib/panzy-comm-js",
   "files": [
     "lib/*.js",
     "packages"
@@ -12,7 +12,7 @@
     "email": "sd4015700@126.com"
   },
   "repository": {
-    "url": "https://gitee.com/pan-zy/vue2-element-dyn-form",
+    "url": "https://gitee.com/pan-zy/panzy-comm-js",
     "type": "git"
   },
   "scripts": {
@@ -27,7 +27,6 @@
   },
   "peerDependencies": {
     "core-js": "^3.6.5",
-    "element-ui": "^2.15.3",
     "vue": "^2.6.11"
   },
   "dependencies": {},
@@ -44,7 +43,6 @@
     "compression-webpack-plugin": "^6.1.1",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.3",
-    "element-ui": "^2.15.3",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",

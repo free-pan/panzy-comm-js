@@ -3,7 +3,6 @@ const path = require('path')
 module.exports = {
   title: 'Element 扩展:动态表单',
   ignore: ['**/index.js'],
-  require: [path.join(__dirname, 'styleguide.global.requires.js')],
   version: '0.1.0',
   styleguideDir: 'styleguide-dist',
   // 在编辑器的右上角添加一个小按钮，用于将编辑器的内容复制到剪贴板

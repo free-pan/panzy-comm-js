@@ -1,5 +1,10 @@
-export const deepCopy = function fun(obj) {
-  if (obj === null || obj === undefined) return null
+/**
+ * 对象深度克隆
+ * @param {*} obj 被克隆的对象
+ * @return {Date|*} 克隆出的新对象
+ */
+export const deepClone = (obj) => {
+  if (obj === null || obj === undefined) return obj
   if (typeof obj !== 'object') return obj
   if (obj.constructor === Date) return new Date(obj)
   const newObj = new obj.constructor() //保持继承链
@@ -8,7 +13,7 @@ export const deepCopy = function fun(obj) {
       //不遍历其原型链上的属性
       const val = obj[key]
       // eslint-disable-next-line
-      newObj[key] = typeof val === 'object' ? fun(val) : val // 使用arguments.callee解除与函数名的耦合
+      newObj[key] = typeof val === 'object' ? deepClone(val) : val // 使用arguments.callee解除与函数名的耦合
     }
   }
   return newObj
