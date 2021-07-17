@@ -1,1 +1,0 @@
-/*! For license information please see chunk-vendors.2a214d1b.js.LICENSE.txt */
