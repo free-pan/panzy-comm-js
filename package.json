@@ -1,8 +1,8 @@
 {
   "name": "panzy-comm-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
-  "main": "lib/panzy-comm-js",
+  "main": "lib/panzy-comm-js.common.js",
   "files": [
     "lib/*.js",
     "packages"
@@ -20,7 +20,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prettier": "npx prettier --config .prettierrc.js --write \"src/**/*.{js,ts,tsx,less,css,scss,vue}\"",
-    "lib": "vue-cli-service build --target lib --name vue2-element-dyn-form --dest lib src/index.js",
+    "lib": "vue-cli-service build --target lib --name panzy-comm-js --dest lib src/index.js",
     "analyzer": "vue-cli-service build --report",
     "styleguide": "cross-env NODE_ENV=dev vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
