@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1626514110361" clover="3.2.0">
+  <project timestamp="1626514110361" name="All files">
+    <metrics statements="47" coveredstatements="47" conditionals="38" coveredconditionals="38" methods="6" coveredmethods="6" elements="91" coveredelements="91" complexity="0" loc="47" ncloc="47" packages="1" files="3" classes="3"/>
+    <file name="concurrencyControlWrapper.js" path="E:\pzy-workspace\opensource-component\vue2\panzy-comm-js\packages\concurrencyControlWrapper.js">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+    </file>
+    <file name="deepClone.js" path="E:\pzy-workspace\opensource-component\vue2\panzy-comm-js\packages\deepClone.js">
+      <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="20" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="2" type="stmt"/>
+    </file>
+    <file name="mapStruct.js" path="E:\pzy-workspace\opensource-component\vue2\panzy-comm-js\packages\mapStruct.js">
+      <metrics statements="28" coveredstatements="28" conditionals="24" coveredconditionals="24" methods="3" coveredmethods="3"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="18" count="15" type="cond" truecount="4" falsecount="0"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="23" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="27" count="11" type="stmt"/>
+      <line num="29" count="11" type="stmt"/>
+      <line num="31" count="31" type="stmt"/>
+      <line num="33" count="31" type="stmt"/>
+      <line num="34" count="31" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="20" type="stmt"/>
+      <line num="41" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="47" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="53" count="9" type="stmt"/>
+      <line num="56" count="11" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="72" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="74" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="78" count="1" type="stmt"/>
+      <line num="79" count="2" type="stmt"/>
+      <line num="80" count="2" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

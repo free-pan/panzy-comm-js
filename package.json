@@ -23,7 +23,9 @@
     "lib": "vue-cli-service build --target lib --name vue2-element-dyn-form --dest lib src/index.js",
     "analyzer": "vue-cli-service build --report",
     "styleguide": "cross-env NODE_ENV=dev vue-styleguidist server",
-    "styleguide:build": "vue-styleguidist build"
+    "styleguide:build": "vue-styleguidist build",
+    "test": "jest",
+    "jsdoc": "jsdoc -c jsdoc.config.json"
   },
   "peerDependencies": {
     "core-js": "^3.6.5",
@@ -43,9 +45,12 @@
     "compression-webpack-plugin": "^6.1.1",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.3",
+    "docdash": "^1.2.0",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
+    "jest": "^27.0.6",
+    "jsdoc": "^3.6.7",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",

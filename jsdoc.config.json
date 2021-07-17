@@ -1,0 +1,52 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "readme": "README.md",
+  "sourceType": "module",
+  "source": {
+    "include": [
+      "packages",
+      "package.json",
+      "README.md"
+    ],
+    "exclude": [],
+    "includePattern": ".+\\.(j|t)s(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": true,
+    "useLongnameInNav": false,
+    "showInheritedInNav": true,
+    "default": {
+      "includeData": false
+    }
+  },
+  "opts": {
+    "destination": "./jsdocs/",
+    "recurse": true,
+    "template": "node_modules/docdash"
+  },
+  "docdash": {
+    "search": true,
+    "typedefs": true,
+    "collapse": true,
+    "private": false,
+    "sectionOrder": [
+      "Classes",
+      "Modules",
+      "Externals",
+      "Events",
+      "Namespaces",
+      "Mixins",
+      "Tutorials",
+      "Interfaces"
+    ]
+  },
+  "meta": {
+    "title": "常用js帮助方法API文档"
+  }
+}

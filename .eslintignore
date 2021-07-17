@@ -8,3 +8,5 @@ vue.config.js
 babel.config.js
 .eslintrc.js
 webstorm.config.js
+*.test.js
+*.test.ts
