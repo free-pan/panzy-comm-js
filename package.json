@@ -1,6 +1,6 @@
 {
   "name": "panzy-comm-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "main": "lib/panzy-comm-js.common.js",
   "files": [
@@ -22,8 +22,6 @@
     "prettier": "npx prettier --config .prettierrc.js --write \"src/**/*.{js,ts,tsx,less,css,scss,vue}\"",
     "lib": "vue-cli-service build --target lib --name panzy-comm-js --dest lib src/index.js",
     "analyzer": "vue-cli-service build --report",
-    "styleguide": "cross-env NODE_ENV=dev vue-styleguidist server",
-    "styleguide:build": "vue-styleguidist build",
     "test": "jest",
     "jsdoc": "jsdoc -c jsdoc.config.json"
   },

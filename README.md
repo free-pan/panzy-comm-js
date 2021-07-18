@@ -12,6 +12,12 @@
 
 ```js
 import {concurrencyControlWrapper, deepClone, mapStruct, mapStructArr} from 'panzy-comm-js'
+或
+import CommUtil from 'panzy-comm-js'
+CommUtil.concurrencyControlWrapper(...)
+CommUtil.deepClone(...)
+CommUtil.mapStruct(...)
+CommUtil.mapStructArr(...)
 ```
 
 ## 源码
