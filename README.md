@@ -24,6 +24,10 @@ CommUtil.mapStructArr(...)
 
 [源码](https://gitee.com/pan-zy/panzy-comm-js)
 
+## 在线文档
+
+[在线文档](https://free-pan.github.io/panzy-comm-js/)
+
 ## 使用示例
 
 使用示例详见`.test.js`的单元测试方法
