@@ -2,22 +2,19 @@
 
 封装一些平时开发中常用的js
 
-## 版本
-
-0.1.0
-
 ## npm引入
 
 [npm](https://www.npmjs.com/package/panzy-comm-js)
 
 ```js
-import {concurrencyControlWrapper, deepClone, mapStruct, mapStructArr} from 'panzy-comm-js'
+import {concurrencyControlWrapper, deepClone, mapStruct, mapStructArr,sleep} from 'panzy-comm-js'
 或
 import CommUtil from 'panzy-comm-js'
 CommUtil.concurrencyControlWrapper(...)
 CommUtil.deepClone(...)
 CommUtil.mapStruct(...)
 CommUtil.mapStructArr(...)
+CommUtil.sleep(...)
 ```
 
 ## 源码
