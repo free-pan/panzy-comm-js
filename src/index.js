@@ -4,14 +4,17 @@ import {
   mapStruct as _mapStruct,
   mapStructArr as _mapStructArr
 } from '../packages/mapStruct'
+import { sleep as _sleep } from '../packages/sleep'
 
 export const concurrencyControlWrapper = _concurrencyControlWrapper
 export const deepClone = _deepClone
 export const mapStruct = _mapStruct
 export const mapStructArr = _mapStructArr
+export const sleep = _sleep
 export default {
   concurrencyControlWrapper,
   deepClone,
   mapStruct,
-  mapStructArr
+  mapStructArr,
+  sleep
 }

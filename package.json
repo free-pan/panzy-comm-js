@@ -1,6 +1,6 @@
 {
   "name": "panzy-comm-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "main": "lib/panzy-comm-js.common.js",
   "files": [
@@ -11,6 +11,7 @@
     "name": "pan",
     "email": "sd4015700@126.com"
   },
+  "homepage": "https://free-pan.github.io/panzy-comm-js/",
   "repository": {
     "url": "https://gitee.com/pan-zy/panzy-comm-js",
     "type": "git"
